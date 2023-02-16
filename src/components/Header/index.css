@@ -1,0 +1,93 @@
+/* Write your CSS code here */
+.nav-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 767px) {
+  .nav-header {
+    flex-direction: column;
+  }
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  max-width: 1110px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+}
+
+@media screen and(min-width:767px) {
+  .nav-content {
+    flex-direction: column;
+    width: 100%;
+    padding-right: 15px;
+  }
+}
+
+.nav-bar-mobile-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and(min-width:768px) {
+  .nav-bar-mobile-container {
+    display: none;
+  }
+}
+
+.website-logo {
+  width: 120px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  flex: 1;
+}
+
+@media screen and(min-width:768px) {
+  .nav-menu {
+    display: none;
+  }
+}
+
+.nav-menu-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e6f6ff;
+  flex: 1;
+}
+
+.nav-menu-mobile {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #475569;
+}
+
+.nav-item-mobile {
+  margin: 0px;
+  cursor: pointer;
+}
+
+.logout-button {
+  background-color: #0967d2;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.nav-bar-image {
+  width: 24px;
+}
